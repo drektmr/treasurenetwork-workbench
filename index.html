@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>&lt;my-element> Demo</title>
+  <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="../node_modules/lit/polyfill-support.js"></script>
+  <script type="module" src="src/bundles/CardBundle.js"></script>
+  <style>
+    p {
+      border: solid 1px blue;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+<leader-card
+  name="Luffy"
+  collection="One Piece"
+  number="001"
+  rarity="Secret"
+  cost="2"
+  power="5000"
+  color="red"
+  types="[StrawHat Pirates, Worst Generation]"
+  effects="[1, 2, 3]"
+  attribute="Smasher"
+  life="5"
+></leader-card>
+<don-card></don-card>
+</body>
+</html>
